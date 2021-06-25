@@ -239,13 +239,13 @@ SELECT CountryCode FROM city
 UNION ALL
 SELECT Name FROM country;
 
-/* Create Database
+/* # Create Database
 CREATE DATABASE databasename;
 
-Drop Database
+# Drop Database
 DROP DATABASE databasename;
 
-Create Table
+# Create Table
 CREATE TABLE table_name (
     column1 datatype,
     column2 datatype,
@@ -253,5 +253,5 @@ CREATE TABLE table_name (
    ....
 );
 
-Drop Table
+# Drop Table
 DROP TABLE table_name;
